@@ -5,6 +5,8 @@ function handleRequest(request) {
     const html = `<html>
       <p><b>Message:</b> Hello from Deno Deploy.</p>
       </html>`;
+    
+    console.log('ok');
 
     return new Response(html, {
       headers: {
