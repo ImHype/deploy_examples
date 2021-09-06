@@ -6,7 +6,7 @@ function handleRequest(request) {
       <p><b>Message:</b> Hello from Deno Deploy.</p>
       </html>`;
     
-    console.log('ok');
+    console.log('ok1233');
 
     return new Response(html, {
       headers: {
